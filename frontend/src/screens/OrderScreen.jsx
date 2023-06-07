@@ -15,6 +15,8 @@ import {
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 import paypalConfig from "../paypal";
 
+// eslint-disable-next-line
+
 const OrderScreen = () => {
   const { id: orderId } = useParams();
 
